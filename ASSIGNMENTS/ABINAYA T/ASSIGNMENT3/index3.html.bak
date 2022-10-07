@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/styles.css">
+    <title>IBM - Object Storage</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-org nav-bold"><a href="#">IBM Object Storage</a></div>
+        <a href="./about3.html" class="nav-item nav-bold">About</a>
+        <a href="./index3.html#img1" class="nav-item">Image 1</a>
+        <a href="./index3.html#img2" class="nav-item">Image 2</a>
+        <a href="./index3.html#img3" class="nav-item">Image 3</a>
+		<a href="./index3.html#img4" class="nav-item">Image 4</a>
+		<a href="./index3.html#img5" class="nav-item">Image 5</a>
+    </nav>
+    <main>
+        <section id="img1" class="full-section">
+            <span class="img-title"># image-1</span>
+            <div class="img-container">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img1.jpg" alt="Image 1" width="900">
+            </div>
+        </section>
+        <section id="img2" class="full-section">
+            <span class="img-title"># image-2</span>
+            <div class="img-container">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img2.jpg" alt="Image 2" width="900">
+            </div>
+        </section>
+		 		 <section id="img3" class="full-section">
+            <span class="img-title"># image-3</span>
+            <div class="img-container">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img3.jpg" alt="Image 1" width="900">
+            </div>
+        </section>
+        <section id="img4" class="full-section">
+            <span class="img-title"># image-4</span>
+            <div class="img-container">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img4.jpg" alt="Image 2" width="900">
+            </div>
+        </section>
+         <section id="img5" class="full-section">
+            <span class="img-title"># image-5</span>
+            <div class="img-container">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img5.jpg" alt="Image 1" width="900">
+            </div>
+        </section>       
+    </main>
+    <footer>
+        <div class="footer-text">ABINAYA</div>
+        <div class="footer-text">+91 9876564321</div>
+        <a href="https://github.com/ABINAYA20020324/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        
+    </footer>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "55600550-2ac7-46fd-85b3-08129a413c12", // The ID of this integration.
+          region: "jp-tok", // The region your integration is hosted in.
+          serviceInstanceID: "ac11097b-5573-4744-9b85-ea74327ddcba", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
