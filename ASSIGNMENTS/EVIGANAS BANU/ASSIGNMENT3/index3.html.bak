@@ -33,21 +33,21 @@
 		 		 <section id="img3" class="full-section">
             <span class="img-title"># image-3</span>
             <div class="img-container">
-                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img3.jpg" alt="Image 1" width="900">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img3.jpg" alt="Image 3" width="900">
             </div>
         </section>
         <section id="img4" class="full-section">
             <span class="img-title"># image-4</span>
             <div class="img-container">
-                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img4.jpg" alt="Image 2" width="900">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img4.jpg" alt="Image 4" width="900">
             </div>
         </section>
          <section id="img5" class="full-section">
             <span class="img-title"># image-5</span>
             <div class="img-container">
-                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img5.jpg" alt="Image 1" width="900">
+                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/img5.jpg" alt="Image 5" width="900">
             </div>
-        </section>       
+        </section>     
     </main>
     <footer>
         <div class="footer-text">EVIGANAS BANU</div>
