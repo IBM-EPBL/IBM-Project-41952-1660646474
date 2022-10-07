@@ -27,7 +27,7 @@
                     to store and the Images where directly sourced from the Bucket. The CSS as well is
                     sourced from the Bucket. Below are the files availabe in the Bucket.
                 </p>
-                <img src="https://ibm-flask-app.s3.jp-tok.cloud-object-storage.appdomain.cloud/bucketImage.png" alt="Screen shot of IBM Object Storage Bucket" width="700">
+                <img src="output.png" alt="Screen shot of IBM Object Storage Bucket" width="700">
                 <p class="container-text">
                     <strong>THIS STATIC WEBPAGE MAYBE SLOWER BECAUSE OF THE SIZE OF IMAGES USED</strong>
                 </p>
