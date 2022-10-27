@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-app-service
+spec:
+  type: ClusterIP
+  ports:
+    - port: 5000
+  selector:
+    app: flask-app
