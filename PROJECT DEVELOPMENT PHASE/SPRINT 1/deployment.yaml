@@ -1,0 +1,35 @@
+## Enter your <docker_username> before use
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: test
+  labels:
+    app: test
+spec:
+  type: NodePort
+  ports:
+    - port: 5000
+      name: http
+      nodePort: 30080
+  selector:
+    app: app
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: test
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+        - name: ibm_project
+          image:https://github.com/IBM-EPBL/IBM-Project-3989-1658678612
+          ports:
+            - containerPort: 5000
+      imagePullSecrets:
+        - name: regcred
